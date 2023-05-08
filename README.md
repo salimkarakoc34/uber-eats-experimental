@@ -1,1 +1,2 @@
 # uber-eats-experimental
+Uber's order-taking algorithm often behaves erroneously. Firstly, I am not entirely sure what Uber's goal is, but when there are 2 or more orders, I often see that the algorithm matches the second order independently of the first order's destination, which I think is wrong and results in delayed deliveries. Although Uber's primary approach is to accept orders from nearby restaurants as quickly as possible, my algorithm aims to prioritize houses' proximity to each other rather than the proximity of restaurants to each other
